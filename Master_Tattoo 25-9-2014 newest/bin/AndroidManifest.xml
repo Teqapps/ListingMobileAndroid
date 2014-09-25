@@ -45,7 +45,9 @@
         <activity 
             android:theme="@style/AppTheme"
             android:name="master.tattoo.slidingmenu.MainActivity" />
-        <activity android:name="master.tattoo.slidingmenu.SingleItemView" />
+        <activity
+            android:theme="@style/AppTheme" 
+            android:name="master.tattoo.slidingmenu.SingleItemView" />
         <activity android:name="master.tattoo.slidingmenu.MasterDetails" />
         </application>
         

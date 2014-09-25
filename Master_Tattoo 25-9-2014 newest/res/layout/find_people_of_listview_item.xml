@@ -4,23 +4,10 @@
     android:layout_height="fill_parent" >
 
     <TextView
-        android:id="@+id/Master_idlabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Master_idlabel" />
-
-    <TextView
         android:id="@+id/Master_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/Master_idlabel" />
-
-    <TextView
-        android:id="@+id/Namelabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Master_idlabel"
-        android:text="@string/Namelabel" />
 
     <TextView
         android:id="@+id/Name"
@@ -28,13 +15,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/Master_id"
         android:layout_toRightOf="@+id/Namelabel" />
-
-    <TextView
-        android:id="@+id/Genderlabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Namelabel"
-        android:text="@string/Genderlabel" />
 
     <TextView
         android:id="@+id/Gender"
@@ -49,10 +29,32 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:scaleType="centerCrop"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
         android:src="@drawable/img"
          />
-	  
-	 
+
+	  <TextView
+	      android:id="@+id/Master_idlabel"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentTop="true"
+	      android:layout_toRightOf="@+id/image"
+	      android:text="@string/Master_idlabel" />
+
+	  <TextView
+	      android:id="@+id/Namelabel"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignLeft="@+id/Master_idlabel"
+	      android:layout_below="@+id/Master_idlabel"
+	      android:text="@string/Namelabel" />
+
+	  <TextView
+	      android:id="@+id/Genderlabel"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignLeft="@+id/Namelabel"
+	      android:layout_below="@+id/Namelabel"
+	      android:text="@string/Genderlabel" />
 	  
 </RelativeLayout>

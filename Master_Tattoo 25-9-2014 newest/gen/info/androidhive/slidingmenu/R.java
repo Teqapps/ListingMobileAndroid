@@ -69,12 +69,12 @@ public final class R {
         public static final int temp_img=0x7f020012;
     }
     public static final class id {
-        public static final int Gender=0x7f0b000b;
-        public static final int Genderlabel=0x7f0b000a;
-        public static final int Master_id=0x7f0b0007;
-        public static final int Master_idlabel=0x7f0b0006;
-        public static final int Name=0x7f0b0009;
-        public static final int Namelabel=0x7f0b0008;
+        public static final int Gender=0x7f0b000a;
+        public static final int Genderlabel=0x7f0b000b;
+        public static final int Master_id=0x7f0b0006;
+        public static final int Master_idlabel=0x7f0b0007;
+        public static final int Name=0x7f0b0008;
+        public static final int Namelabel=0x7f0b0009;
         public static final int action_settings=0x7f0b0012;
         public static final int button=0x7f0b000e;
         public static final int counter=0x7f0b0005;
